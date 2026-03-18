@@ -1,0 +1,67 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+  background: var(--tg-theme-bg-color, #ffffff);
+}
+
+.content {
+  padding: 16px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: var(--tg-theme-hint-color, #999999);
+}
+
+/* Общие стили */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--tg-theme-text-color, #000000);
+}
+
+h3 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: var(--tg-theme-hint-color, #666666);
+}
+
+/* Кнопки */
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-primary {
+  background: var(--tg-theme-button-color, #2481cc);
+  color: var(--tg-theme-button-text-color, #ffffff);
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+.button-secondary {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--tg-theme-text-color, #000000);
+}
+
+/* Пустое состояние */
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--tg-theme-hint-color, #999999);
+  font-size: 16px;
+}

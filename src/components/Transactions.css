@@ -1,0 +1,38 @@
+.transactions {
+  padding-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid var(--tg-theme-button-color, #2481cc);
+  background: none;
+  color: var(--tg-theme-text-color, #000000);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-btn.active {
+  background: var(--tg-theme-button-color, #2481cc);
+  color: var(--tg-theme-button-text-color, #ffffff);
+}
+
+.transaction-group {
+  margin-bottom: 16px;
+}
+
+.transaction-date-header {
+  font-size: 14px;
+  color: var(--tg-theme-hint-color, #999999);
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
